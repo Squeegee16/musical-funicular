@@ -1,0 +1,28 @@
+dispatch-globe/
+├── docker-compose.yml
+├── .env
+├── data/
+│   ├── audio/
+│   ├── postgres/
+│   └── logs/
+├── ingest/
+│   ├── mic-server.js
+│   └── package.json
+├── whisper/
+│   ├── transcribe.py
+│   └── requirements.txt
+├── nlp/
+│   └── extract.py
+├── api/
+│   ├── server.js
+│   ├── db.js
+│   └── package.json
+├── frontend/
+│   ├── index.html
+│   ├── app.js
+│   ├── styles.css
+│   └── icons/
+│       ├── engine.png
+│       ├── medic.png
+│       ├── police.png
+│       └── rescue.png
